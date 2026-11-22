@@ -28,3 +28,7 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+- Keep the marketing experience on the index route with anchor navigation because this site is explicitly one scrolling page.
+- Use src/lib/site-config.ts as the single destination for all application links so the marketing site remains independent of the application.
+- Keep illustrative product data presentation-only in DashboardPreview; the marketing site does not implement application services.
